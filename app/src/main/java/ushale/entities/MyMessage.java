@@ -6,12 +6,23 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import org.json.*;
+
 /**
  * Created by ushale on 06.03.15.
  */
 public class MyMessage implements Viewable {
 
     private String body;
+
+    @Override
+    public void click() {
+
+    }
+
+    public void respondOfVK(Object response){
+
+    }
 
     public MyMessage(String body){
         this.body = body;
